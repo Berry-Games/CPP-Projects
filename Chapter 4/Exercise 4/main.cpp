@@ -4,8 +4,9 @@
 //If the user enters an invalid symbol, the program should print nothing.
 
 #include <iostream>
+#include <string>
 
-double askUserNumber(string order)
+double askUserNumber(std::string order)
 {
     std::cout << "Enter your " << order << " double value: " ;
     double d ;
